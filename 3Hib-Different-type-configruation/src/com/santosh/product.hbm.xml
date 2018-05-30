@@ -1,0 +1,10 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<hibernate-mapping>
+	<class name="com.santosh.Product" table="prduct">
+		<id name="Id" column="Id"></id>
+		<property name="productName" column="productName"></property>
+		<property name="price" column="price"></property>
+	</class>
+</hibernate-mapping>
